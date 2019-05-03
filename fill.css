@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: red;
+}
+
+section {
+	color: yellow;
+}
+
+#container {
+  max-height: 50vh;
+  background-color: green;
+  overflow-y: scroll;
+}
+
+footer {
+  background-color: blue;
+}

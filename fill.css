@@ -1,6 +1,11 @@
-* {
-	padding: 0;
+html, body {
 	margin: 0;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -10,16 +15,13 @@ header {
 	justify-content: space-between;
 }
 
-section {
-	color: yellow;
-}
-
-#container {
-	max-height: 50vh;
+main {
 	background-color: green;
 	overflow-y: scroll;
+	flex: auto;
 }
 
 footer {
 	background-color: blue;
+	flex: none;
 }

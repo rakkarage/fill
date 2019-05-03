@@ -34,10 +34,8 @@ main {
 
 #scroll {
 	overflow-y: scroll;
-	flex: auto;
 }
 
 #side {
 	overflow-y: scroll;
-	flex: auto;
 }

@@ -8,6 +8,13 @@ body {
 	flex-direction: column;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+	overflow-y: hidden;
+	flex: auto;
+}
+
 #subHeader {
 	background-color: red;
 	display: flex;

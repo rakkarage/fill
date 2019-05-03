@@ -6,7 +6,7 @@ document.getElementById("addButton").addEventListener("click", function (event) 
 });
 
 function updateScroll() {
-	var element = document.getElementById("scroll");
+	var element = document.getElementById("subMain");
 	element.scrollTop = element.scrollHeight;
 }
 

@@ -8,19 +8,19 @@ body {
 	flex-direction: column;
 }
 
-header {
+#subHeader {
 	background-color: red;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-main {
+#subMain {
 	background-color: green;
 	overflow-y: scroll;
 	flex: auto;
 }
 
-footer {
+#subFooter {
 	background-color: blue;
 }

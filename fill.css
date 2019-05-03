@@ -38,7 +38,6 @@ main {
 }
 
 #side {
-	background: yellow;
 	overflow-y: scroll;
 	flex: auto;
 }

@@ -24,10 +24,21 @@ main {
 
 #subMain {
 	background-color: green;
-	overflow-y: scroll;
-	flex: auto;
+	display: flex;
+	flex-direction: row;
 }
 
 #subFooter {
 	background-color: blue;
+}
+
+#scroll {
+	overflow-y: scroll;
+	flex: auto;
+}
+
+#side {
+	background: yellow;
+	overflow-y: scroll;
+	flex: auto;
 }

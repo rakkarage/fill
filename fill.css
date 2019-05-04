@@ -19,14 +19,15 @@ main {
 	display: flex;
 	flex-direction: column;
 	overflow-y: hidden;
-	flex: auto;
+	flex: content;
 }
 
 #subMain {
 	background-color: green;
 	display: flex;
 	flex-direction: row;
-	flex: auto;
+	flex: content;
+	overflow-y: hidden;
 }
 
 #subFooter {
@@ -35,8 +36,10 @@ main {
 
 #scroll {
 	overflow-y: scroll;
+	flex: auto;
 }
 
 #side {
 	overflow-y: scroll;
+	flex: auto;
 }
